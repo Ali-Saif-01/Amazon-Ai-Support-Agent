@@ -25,14 +25,23 @@
       "cohens_kappa": 0.33155080213903765
     }
   },
-  "reply_quality_review": {
-    "examples_reviewed": 50,
-    "relevance": 0.84,
-    "groundedness": 0.98,
-    "helpfulness": 0.72,
-    "professional_tone": 1.0,
-    "unsupported_claims": 0.0,
-    "overall_quality": 3.44
+  "reply_quality": {
+    "human_review": {
+      "examples_reviewed": 50,
+      "relevance": 0.84,
+      "groundedness": 0.98,
+      "helpfulness": 0.72,
+      "professional_tone": 1.0,
+      "unsupported_claims": 0.0,
+      "overall_quality": 3.44
+    },
+    "human_llm_agreement": {
+      "compared_examples": 50,
+      "human_average_quality": 3.44,
+      "llm_average_quality": 3.38,
+      "exact_agreement": 0.94,
+      "cohens_kappa": 0.8867069486404833
+    }
   },
   "per_intent": {
     "Account Security": {

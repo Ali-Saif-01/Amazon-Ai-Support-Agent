@@ -1,0 +1,400 @@
+CASE 1
+ID: golden_164
+INTENT: Order Cancellation & Refund
+CUSTOMER: @227106 @115850 @AmazonHelp Amazon Pay Order ID #P04-5604862-8562487 #P04-5604862-8562487 still refund not reflect 10 days gone 1/2
+RETRIEVED_REPLY: @426783 Please don't provide your order details, we consider it to be personal information. Our page is visible to the public.2/2^SY
+GENERATED_REPLY: Sorry for the trouble with your order. Please contact support so the team can check the cancellation or refund status and help resolve the issue.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 2
+ID: golden_029
+INTENT: Delivery Delay / Service Issue
+CUSTOMER: @3375 @115821 @AmazonHelp 2 orders, first order was one week late, the other late and all of the sudden tracking number can’t be located.  So much for #prime.  @3375 is horrible
+RETRIEVED_REPLY: @204994 I'm sorry your package hasn't arrived on time! If you paid for faster shipping, please reach out to us: https://t.co/EKXRLsF8B2 ^AM
+GENERATED_REPLY: I'm sorry your delivery has been delayed. Please check the latest tracking status and contact support if the expected delivery date has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 3
+ID: golden_007
+INTENT: Account Security
+CUSTOMER: @AmazonHelp I can't reset my password. Every time I reset it and try to login using that password it says its incorrect.
+RETRIEVED_REPLY: @205353 We're sorry for the trouble with your account! Have you cleared your browser's cache/cookies or tried a different device? ^WM
+GENERATED_REPLY: Sorry you're having trouble with your Amazon account. Please use the account-support process to verify your account and secure it. If you don't recognize an order or activity, please mention that when contacting support.
+HUMAN_OVERALL: 3
+================================================================================
+CASE 4
+ID: golden_190
+INTENT: Delivery Delay / Service Issue
+CUSTOMER: Two different @115821 deliveries supposed to arrive today. Two different carriers. Both of them delayed. Lame. @AmazonHelp
+RETRIEVED_REPLY: @442106 Thanks for reaching out to us, Ava! To clarify, Did you receive someone else's packages? If so, please reach out to us via phone or chat:  https://t.co/hApLpMlfHN ^SW
+GENERATED_REPLY: I'm sorry your delivery has been delayed. Please check the latest tracking status and contact support if the expected delivery date has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 5
+ID: golden_071
+INTENT: Device & App Technical Issue
+CUSTOMER: Think twice before ordering from Amazon. Ordered 3 pair of Costas and this is what I got...from China! 3 plastic broken fake Oakleys/Raybans https://t.co/g4QRIXBb5c
+RETRIEVED_REPLY: @533106 Are you having problems with a specific carrier? Or were the items sold by Amazon, or sold by a seller on our site? ^JZ
+GENERATED_REPLY: Sorry you're having trouble with your device or the Amazon app. Please share the specific problem you're experiencing so support can help troubleshoot it.
+HUMAN_OVERALL: 1
+================================================================================
+CASE 6
+ID: golden_063
+INTENT: Payment, Gift Card & Billing Issue
+CUSTOMER: @AmazonHelp I bought a wireless router that I would like to return. How can I return it?
+RETRIEVED_REPLY: @297205 I get the concern. Please reach out to us, via the link provided earlier. ^MS
+GENERATED_REPLY: Sorry for the trouble with your payment or billing. Please contact support through the secure support channel so the team can review the transaction and help resolve it.
+HUMAN_OVERALL: 1
+================================================================================
+CASE 7
+ID: golden_058
+INTENT: Delivery Delay / Service Issue
+CUSTOMER: @115851       My @115850 order  408-7529268-5955521 item was delivered several days late.  It created several problems for me. I had to spend another Rs 25,000 to work around this delay.  No proper reason was given for the delay.
+RETRIEVED_REPLY: @423729 We'd like to explore your options in real time! Reach out to us here for further assistance please: https://t.co/hApLpM3Ejd ^SH
+GENERATED_REPLY: I'm sorry your delivery has been delayed. Please check the latest tracking status and contact support if the expected delivery date has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 8
+ID: golden_036
+INTENT: Prime Membership, Billing & Video
+CUSTOMER: After 10 years of Amazon Prime I no longer think it's worth having 12 months a year. The value has gone down slower shipping &amp; Prime video isn't worth it at all.
+RETRIEVED_REPLY: @512820 I'm sorry that you are thinking of canceling your subscription. We strive to offer you the best Black Friday Sales and Cyber Week Deals. During this time, deliveries may take slightly longer than usual. You can manage your membership here:https://t.co/KaBhCcnVST.^GA
+GENERATED_REPLY: Sorry you're having trouble with your Prime membership or Prime Video. Please share the specific issue so support can check the relevant account or content details and help you.
+HUMAN_OVERALL: 3
+================================================================================
+CASE 9
+ID: golden_189
+INTENT: Shipping Speed / Prime SLA Not Met
+CUSTOMER: Wow @115821 has gone down hill...I ordered an item with two day shipping two days ago and it STILL has not shipped.  WTF?
+RETRIEVED_REPLY: @811518 Sorry to hear about this. What was the delivery date given during checkout and in your order confirmation email? ^MI
+GENERATED_REPLY: I'm sorry the delivery did not arrive within the expected time. Please check the latest tracking status and contact support if the promised delivery window has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 10
+ID: golden_027
+INTENT: Shipping Speed / Prime SLA Not Met
+CUSTOMER: Ordered my video card from amazon on Friday last week and used the 2 day prime shipping and it may not arrive until tomorrow? I don't know how long a day is over at @AmazonHelp but it's only 24 hours for everyone else.
+RETRIEVED_REPLY: @658231 Oh, no! I'm so sorry to see this delay, Jenny- we'd like to help in any way possible. Who's the carrier for this order? You can find that info here: https://t.co/hApLpMlfHN ^BL
+GENERATED_REPLY: I'm sorry the delivery did not arrive within the expected time. Please check the latest tracking status and contact support if the promised delivery window has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 11
+ID: golden_174
+INTENT: Prime Membership, Billing & Video
+CUSTOMER: @115850 dont take orders if u cant deliver, no attempt to delivery made and simply wrote "Undeliverable" Order no 406-5724888-8483504. What is the use of amazon prime then??????? #pathetic
+RETRIEVED_REPLY: @215473 Please don't provide your order details, as we consider them to be personal info. Our page is visible to the public. ^GK
+GENERATED_REPLY: Sorry you're having trouble with your Prime membership or Prime Video. Please share the specific issue so support can check the relevant account or content details and help you.
+HUMAN_OVERALL: 3
+================================================================================
+CASE 12
+ID: golden_140
+INTENT: Customer Service Quality Complaint
+CUSTOMER: @118919 Pathetic service from Amazon to avoid at all cost and informing people not to buy any imported items from Amazon India  Order ID 407-2793143-3561942
+RETRIEVED_REPLY: @267747 Sorry for any hassle. Could you please confirm if you have shared your details using the secured link provided in the previous correspondence? Please don't provide your order details, we consider it to be personal information. Our page is visible to the public. ^RI
+GENERATED_REPLY: I'm sorry about your customer-service experience. Please share the details with support so the team can review what happened and assist you.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 13
+ID: golden_023
+INTENT: Marked Delivered But Not Received
+CUSTOMER: @115821 how am I a prime member but I can't have any information on a package I paid for that says delivered and I never received
+RETRIEVED_REPLY: @726012 Oh no! Have we missed the delivery date provided during checkout and in the order confirmation e-mail found here: https://t.co/qGyjvrMu1q ? Please let us know! ^LB
+GENERATED_REPLY: I'm sorry you haven't received your package even though it shows as delivered. Please check the delivery details and contact support so they can help locate the package.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 14
+ID: golden_152
+INTENT: Customer Service Quality Complaint
+CUSTOMER: @115850 hey I wanted to change my echo order to echo plus and your customer service can't help. Do you turn DOWN business like this often?
+RETRIEVED_REPLY: @460282 Kindly reach out to us via: https://t.co/tc3VJIYzxn and select the option of devices. Our team will assist you. ^NR
+GENERATED_REPLY: I'm sorry about your customer-service experience. Please share the details with support so the team can review what happened and assist you.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 15
+ID: golden_109
+INTENT: Account Security
+CUSTOMER: @115821 Getting: "Account locked Your account has been locked..." when trying to access my account nor have the instructions emails. Please assist with this annoying situation.
+RETRIEVED_REPLY: @341636 You can reach out to us without signing in to your account here: https://t.co/6tDjE2YMok ^WJ
+GENERATED_REPLY: Sorry you're having trouble with your Amazon account. Please use the account-support process to verify your account and secure it. If you don't recognize an order or activity, please mention that when contacting support.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 16
+ID: golden_009
+INTENT: Packaging Feedback
+CUSTOMER: @115830 seriously need to look at your packaging all this cardboard and paper for a pillow https://t.co/knW78JjnSW
+RETRIEVED_REPLY: @800210 I'm sorry about this! We'd love to hear your feedback about this here: https://t.co/lSVN3kb44b.  ^GP
+GENERATED_REPLY: Thank you for the feedback about the packaging. We're sorry the packaging wasn't as expected. Please share the details with support so the feedback can be reviewed by the appropriate team.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 17
+ID: golden_008
+INTENT: Shipping Speed / Prime SLA Not Met
+CUSTOMER: @AmazonHelp why do your delivery drivers insist on trying to deliver next day items outside of commercial times? Pointless having next day.
+RETRIEVED_REPLY: @198305 We'd like to help if possible! Are you having trouble with a current order from us: https://t.co/aaDyEz1VgE? ^EP
+GENERATED_REPLY: I'm sorry the delivery did not arrive within the expected time. Please check the latest tracking status and contact support if the promised delivery window has passed.
+HUMAN_OVERALL: 3
+================================================================================
+CASE 18
+ID: golden_024
+INTENT: Payment, Gift Card & Billing Issue
+CUSTOMER: @115821 do you take green dot debit card payment.
+RETRIEVED_REPLY: @664285 Hi there, Ineke! We don't accept book tokens as a payment option. You can learn more about the payment options we accept here: https://t.co/IzUoFBFLRx ^WJ
+GENERATED_REPLY: Sorry for the trouble with your payment or billing. Please contact support through the secure support channel so the team can review the transaction and help resolve it.
+HUMAN_OVERALL: 1
+================================================================================
+CASE 19
+ID: golden_056
+INTENT: Customer Service Quality Complaint
+CUSTOMER: Terrible customer service @115830 again, why is it so hard to get customer service help..
+RETRIEVED_REPLY: @342342 Hey there! We're here to help. Do you mind telling us what's going on? ^NM
+GENERATED_REPLY: I'm sorry about your customer-service experience. Please share the details with support so the team can review what happened and assist you.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 20
+ID: golden_060
+INTENT: Wrong or Defective Item Received
+CUSTOMER: @115830 Bought a Sony Bravia 43" on Cyber Monday and it arrived with a broken bezel clip. I requested a replacement and I have to pay shipping for something that arrived broken?! https://t.co/a66tw7RxTH
+RETRIEVED_REPLY: @658278 I'm sorry to hear you're having trouble returning an item! Please reach out to us for further assistance here: https://t.co/hApLpMlfHN ^LA
+GENERATED_REPLY: I'm sorry the item you received wasn't as expected. Please use the return or replacement process so support can help resolve the issue.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 21
+ID: golden_130
+INTENT: Packaging Feedback
+CUSTOMER: @AmazonHelp I find it pretty alarming that this is recorded as handed to me when it was just left outside my door. https://t.co/2xJD4QS4R0
+RETRIEVED_REPLY: @262366 I apologize for the poor delivery experience, Nicki! We'd like to get your courier feedback submitted. For us to do so, please reach us direclty via phone or chat here: https://t.co/JzP7hlA23B ^CS
+GENERATED_REPLY: Thank you for the feedback about the packaging. We're sorry the packaging wasn't as expected. Please share the details with support so the feedback can be reviewed by the appropriate team.
+HUMAN_OVERALL: 1
+================================================================================
+CASE 22
+ID: golden_155
+INTENT: Shipping Speed / Prime SLA Not Met
+CUSTOMER: me: orders a gift for someone with one day shipping because I needed it today  amazon: haha it's delayed, fucker
+RETRIEVED_REPLY: @810433 Shipping speed refers to transit time once an order ships out. Have we missed the delivery date shown in your order confirmation e-mail here: https://t.co/6o5wC6IQb4 ^NN
+GENERATED_REPLY: I'm sorry the delivery did not arrive within the expected time. Please check the latest tracking status and contact support if the promised delivery window has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 23
+ID: golden_198
+INTENT: Delivery Delay / Service Issue
+CUSTOMER: @AmazonHelp again delay in delivery.. Back to back pathetic service https://t.co/LPPVm4d2PJ
+RETRIEVED_REPLY: @271693 We're unable to view accounts or make changes via Twitter. If you'd like us to look into options, please reach out to us here: https://t.co/JzP7hlA23B ^JO
+GENERATED_REPLY: I'm sorry your delivery has been delayed. Please check the latest tracking status and contact support if the expected delivery date has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 24
+ID: golden_144
+INTENT: Payment, Gift Card & Billing Issue
+CUSTOMER: Why is @115850 trying to cheat me of Rs 350? Are things so bad with @115821 ? Bluffed me saying refund will be credited within 24-48 hours. it is now almost more than 4 months. yet to receive.
+RETRIEVED_REPLY: @146417 I'm sorry for the delay in refund. This is never our intention. Please share your details here: https://t.co/beaaDm0muc and I’ll contact you soon. ^SM
+GENERATED_REPLY: Sorry for the trouble with your payment or billing. Please contact support through the secure support channel so the team can review the transaction and help resolve it.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 25
+ID: golden_051
+INTENT: Shipping Speed / Prime SLA Not Met
+CUSTOMER: @AmazonHelp @115821 #primefail : when your order is guaranteed to arrive on the Wed. before the holiday, but arrives days late, after you’ve already left town. Added bonus: your other order is now delayed another week. Ordered 11/19, delivery 12/6. I’ll take my $99 back, thanks.
+RETRIEVED_REPLY: @119534 Orders can ship at any time; once the order has been processed it will be assigned a tracking number. ^LR
+GENERATED_REPLY: I'm sorry the delivery did not arrive within the expected time. Please check the latest tracking status and contact support if the promised delivery window has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 26
+ID: golden_167
+INTENT: Payment, Gift Card & Billing Issue
+CUSTOMER: Regarding  amazon pay issue  Yeasterday I am pay 200 rs to haptik using amazon pay payment gateway but somehow my payment is cancelled but after that message come from ur side your money will cradit in 5 days . but then after only 125 rs.  cradite @115850 @115823
+RETRIEVED_REPLY: @147145 Sorry to know that the cashback isn't credited yet. Please report that here: https://t.co/TdDksLo6Mf and we'll check this. ^MS
+GENERATED_REPLY: Sorry for the trouble with your payment or billing. Please contact support through the secure support channel so the team can review the transaction and help resolve it.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 27
+ID: golden_192
+INTENT: Packaging Feedback
+CUSTOMER: @115830 what awful packaging to have a book come out of the box like this?! Not impressed with that - it was a gift which now I don’t have time to return and replace. https://t.co/IdBkizgWAV
+RETRIEVED_REPLY: @394849 Please contact on the link provided by ^MJ so we can confirm. ^AT
+GENERATED_REPLY: Thank you for the feedback about the packaging. We're sorry the packaging wasn't as expected. Please share the details with support so the feedback can be reviewed by the appropriate team.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 28
+ID: golden_108
+INTENT: Shipping Speed / Prime SLA Not Met
+CUSTOMER: @AmazonHelp any idea why my parcel that I had set for next day delivery on prime is now not going to arrive for 3 more days? @407058
+RETRIEVED_REPLY: @272889 The current status is shown in Your Orders: https://t.co/BQmcNXViiI Packages can be delivered until 21:00. ^SJ
+GENERATED_REPLY: I'm sorry the delivery did not arrive within the expected time. Please check the latest tracking status and contact support if the promised delivery window has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 29
+ID: golden_057
+INTENT: Prime Membership, Billing & Video
+CUSTOMER: @115850 Dear Amazon Maine Prime Membership Join Kr Li Hai But Abhi Tak Prime Membership Card And Wo Keychain Nhi Mili Hai Why....I Love That Keychain.
+RETRIEVED_REPLY: @125123 Apologies. We’d like to help you. Please fill this form: https://t.co/beaaDm0muc and We’ll contact you soon. ^MN
+GENERATED_REPLY: Sorry you're having trouble with your Prime membership or Prime Video. Please share the specific issue so support can check the relevant account or content details and help you.
+HUMAN_OVERALL: 3
+================================================================================
+CASE 30
+ID: golden_115
+INTENT: Wrong or Defective Item Received
+CUSTOMER: @115821 this is how the majority of my last order looked when it arrived. Drinkable, but all damaged. 😒 https://t.co/N6ERyolmKG
+RETRIEVED_REPLY: @409799 I'm sorry for the poor experience! Please check out our return process here: https://t.co/FV7CBmaJwP ^AC
+GENERATED_REPLY: I'm sorry the item you received wasn't as expected. Please use the return or replacement process so support can help resolve the issue.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 31
+ID: golden_151
+INTENT: Marked Delivered But Not Received
+CUSTOMER: @115821 my package says delivered but never got it. Where is my package !!!!
+RETRIEVED_REPLY: @172904 Sorry for the wait! Let's try these steps here to locate it: https://t.co/8B5k6MasBQ ^DW
+GENERATED_REPLY: I'm sorry you haven't received your package even though it shows as delivered. Please check the delivery details and contact support so they can help locate the package.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 32
+ID: golden_072
+INTENT: Order Cancellation & Refund
+CUSTOMER: @AmazonHelp I’ve tried getting a refund for Order no 403-2127911-4989966 but it’s tied up in red tape for weeks. Please look into this.
+RETRIEVED_REPLY: @513965 We're still working on the results. Kindly stay tuned for an update. ^AP
+GENERATED_REPLY: Sorry for the trouble with your order. Please contact support so the team can check the cancellation or refund status and help resolve the issue.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 33
+ID: golden_002
+INTENT: Order Cancellation & Refund
+CUSTOMER: @118919  my order Order Id: 405-3097032-3125158  for redmi note 4 did not receive yet.....and the agent did not receive my call .
+RETRIEVED_REPLY: @332860 I'm sorry for the wait! Have we missed the delivery date shown here: https://t.co/Y5jpI9gRhE? ^DW
+GENERATED_REPLY: Sorry for the trouble with your order. Please contact support so the team can check the cancellation or refund status and help resolve the issue.
+HUMAN_OVERALL: 1
+================================================================================
+CASE 34
+ID: golden_041
+INTENT: Shipping Speed / Prime SLA Not Met
+CUSTOMER: I'VE BEEN WAITING FOR ULTRA SUN ALL DAY AND IT GOT DELAYED LAST MINUTE @115830 WHY DO U TEST MY LOYALTY
+RETRIEVED_REPLY: @223417 Thank you for reaching out to us! What's the current status of your order here: https://t.co/Y5jpI9gRhE? ^TN
+GENERATED_REPLY: I'm sorry the delivery did not arrive within the expected time. Please check the latest tracking status and contact support if the promised delivery window has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 35
+ID: golden_186
+INTENT: Payment, Gift Card & Billing Issue
+CUSTOMER: @AmazonHelp hey there-I’ve sent a DM with a clip,can you help me,it’s becoming rather annoying and don’t want to be charged 4x for one order
+RETRIEVED_REPLY: @133528 If you are having issues printing out your return label you will need to contact us directly. We cannot view access your account through twitter. Please contact us here:  https://t.co/hApLpM3Ejd and we will be able to help you further with this return. ^BT
+GENERATED_REPLY: Sorry for the trouble with your payment or billing. Please contact support through the secure support channel so the team can review the transaction and help resolve it.
+HUMAN_OVERALL: 3
+================================================================================
+CASE 36
+ID: golden_088
+INTENT: Wrong or Defective Item Received
+CUSTOMER: @AmazonHelp @115850 Wrong image used for the wrong product name. Electric heating pad is the description. https://t.co/pRGWkuQl6o
+RETRIEVED_REPLY: @179717 Thanks for letting us know! We've escalated this to our team to get it checked out. ^NM
+GENERATED_REPLY: I'm sorry the item you received wasn't as expected. Please use the return or replacement process so support can help resolve the issue.
+HUMAN_OVERALL: 1
+================================================================================
+CASE 37
+ID: golden_169
+INTENT: Device & App Technical Issue
+CUSTOMER: Xbox one x arrives a day late. Now it's dead on arrival. Just can't get a break with this Scorpio edition console. First @115830 mess up. Now the machine just doesn't work.
+RETRIEVED_REPLY: @527079 Sorry for the trouble! After searching the availability of this console on our site, it's currently listed as unavailable. ^WM
+GENERATED_REPLY: Sorry you're having trouble with your device or the Amazon app. Please share the specific problem you're experiencing so support can help troubleshoot it.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 38
+ID: golden_040
+INTENT: Order Cancellation & Refund
+CUSTOMER: @115850 There has been an issue with refund process because of mismatch of the return id generated as result of cancellation of pickup by your Amazon delivery partner.Please resolve my issue ASAP
+RETRIEVED_REPLY: @190275 Thank you. Our team will work on it and get in touch with you. ^NS
+GENERATED_REPLY: Sorry for the trouble with your order. Please contact support so the team can check the cancellation or refund status and help resolve the issue.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 39
+ID: golden_182
+INTENT: Order Cancellation & Refund
+CUSTOMER: @115850 I file a case against your fraud scheme of Amazon Pay Balance . This fraud you have introduced to only earn money. I MAKE A STAND YOU IN CONSUMER COURT OF NOT DELIVERING PRODUCT AS SHOWN IN ur WEBSITE AND CANCELLED MY PRODUCT SEVERAL TIMES WITHOUT ANY ACCURATE REASON
+RETRIEVED_REPLY: @217525 I understand your disappointment. Please reply to the email correspondence for further assistance. ^MD
+GENERATED_REPLY: Sorry for the trouble with your order. Please contact support so the team can check the cancellation or refund status and help resolve the issue.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 40
+ID: golden_087
+INTENT: Device & App Technical Issue
+CUSTOMER: .@115850 will Echo help in playing Antakshari or if we could play same with her? :P #pp
+RETRIEVED_REPLY: @666147 I'm sorry for the frustration! Our Amazon Music Unlimited catalog is always changing - new songs are added, while older songs may be removed. Is this a song you've purchased? ^DW
+GENERATED_REPLY: Sorry you're having trouble with your device or the Amazon app. Please share the specific problem you're experiencing so support can help troubleshoot it.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 41
+ID: golden_191
+INTENT: Customer Service Quality Complaint
+CUSTOMER: @AmazonHelp I was promised a GUARANTEED call from a UK based customer service agent WITHIN 24 HOURS by one of your colleagues, on THURSDAY night... still waiting... You people are an absolute FUCKING SHAMBLES...
+RETRIEVED_REPLY: @726321 When you spoke with us last, what was advised by the agent or the supervisor? Were options provided to you? ^FR
+GENERATED_REPLY: I'm sorry about your customer-service experience. Please share the details with support so the team can review what happened and assist you.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 42
+ID: golden_183
+INTENT: Shipping Speed / Prime SLA Not Met
+CUSTOMER: @AmazonHelp Hey Amazon, I'm new to this online shopping thing. Is there a difference between delivery and shipping? I got Prime's 2-day shipping so I'm expecting my item to be here in 2 days.
+RETRIEVED_REPLY: @280141 Have we been missing the estimated delivery dates provided in your e-mail? Please let us know, Zach! We never want to miss our mark. ^FD
+GENERATED_REPLY: I'm sorry the delivery did not arrive within the expected time. Please check the latest tracking status and contact support if the promised delivery window has passed.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 43
+ID: golden_098
+INTENT: Marked Delivered But Not Received
+CUSTOMER: @AmazonHelp @115850   Below status shows item delivered, but I have not received any. #badservice #whoreceived #dontbuyfromamazon https://t.co/bxA7h6Nua1
+RETRIEVED_REPLY: @580454 Please check the spam folder as well, you might have received an email. ^HN
+GENERATED_REPLY: I'm sorry you haven't received your package even though it shows as delivered. Please check the delivery details and contact support so they can help locate the package.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 44
+ID: golden_025
+INTENT: General Help Request / Greeting
+CUSTOMER: @AmazonHelp hey. Can you help me please? I got a new Amazon Fire 7 today and need some help :)
+RETRIEVED_REPLY: @294368 Hi Robert. With out giving account or personal info, what's up? ^RL
+GENERATED_REPLY: Hi! We'd be happy to help. Please tell us a little more about what you need assistance with.
+HUMAN_OVERALL: 5
+================================================================================
+CASE 45
+ID: golden_092
+INTENT: Account Security
+CUSTOMER: @AmazonHelp I can’t get info my account and it won’t let me access the customer support page unless I sign in. How do I contact you
+RETRIEVED_REPLY: @412514 Sorry about that! Please try this one: https://t.co/zYVX1Qi29G ^TR
+GENERATED_REPLY: Sorry you're having trouble with your Amazon account. Please use the account-support process to verify your account and secure it. If you don't recognize an order or activity, please mention that when contacting support.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 46
+ID: golden_089
+INTENT: Payment, Gift Card & Billing Issue
+CUSTOMER: @120474 bought tickets for Sam Smith but can't go 😩 Is there no facility to return tickets or re-sell them? What am I able to do?
+RETRIEVED_REPLY: @446598 Please reach out to us here: https://t.co/29VRrMIXVd? for more assistance with this issue. ^TK
+GENERATED_REPLY: Sorry for the trouble with your payment or billing. Please contact support through the secure support channel so the team can review the transaction and help resolve it.
+HUMAN_OVERALL: 1
+================================================================================
+CASE 47
+ID: golden_068
+INTENT: General Help Request / Greeting
+CUSTOMER: @AmazonHelp need help w recently placed order. Please contact me at your earliest. Many thanks
+RETRIEVED_REPLY: @197894 You've come to the right place! How can we help? No account/order details please. ^MB
+GENERATED_REPLY: Hi! We'd be happy to help. Please tell us a little more about what you need assistance with.
+HUMAN_OVERALL: 5
+================================================================================
+CASE 48
+ID: golden_012
+INTENT: Shipping Speed / Prime SLA Not Met
+CUSTOMER: Surrounded by Sunday papers and then the @115821 delivery man calls... my day just got a whole lot better #bookaddict #morecookbooks https://t.co/jarPq4CEOc
+RETRIEVED_REPLY: @419109 Glad that you received the item, Tanmoy. I will have this feedback forwarded to the concerned team internally. ^MK
+GENERATED_REPLY: I'm sorry the delivery did not arrive within the expected time. Please check the latest tracking status and contact support if the promised delivery window has passed.
+HUMAN_OVERALL: 1
+================================================================================
+CASE 49
+ID: golden_118
+INTENT: Payment, Gift Card & Billing Issue
+CUSTOMER: @115830 I have been charged 3 times on three different days for 1 item.  Impossible to get anything out of a cust two that isn't an automated response. So frustrating!!
+RETRIEVED_REPLY: @198310 (2/2) You can use the links in it to send us feedback for coaching opportunities. What was the outcome of your call? ^DW
+GENERATED_REPLY: Sorry for the trouble with your payment or billing. Please contact support through the secure support channel so the team can review the transaction and help resolve it.
+HUMAN_OVERALL: 4
+================================================================================
+CASE 50
+ID: golden_138
+INTENT: Payment, Gift Card & Billing Issue
+CUSTOMER: @115850 Unable to make payment, as I get following error on every retry. Could you please check? Customer care folks are not able to understand.  Order # 406-1363621-4941920 https://t.co/ifWX84KAv7
+RETRIEVED_REPLY: @337621 I see that you are unable to reach us, please connect with us here: https://t.co/TK4yevTaND. ^AH
+GENERATED_REPLY: Sorry for the trouble with your payment or billing. Please contact support through the secure support channel so the team can review the transaction and help resolve it.
+HUMAN_OVERALL: 4
+================================================================================

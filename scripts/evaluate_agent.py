@@ -11,6 +11,7 @@ AGENT_FILE = BASE / "data" / "agent_results.csv"
 REPLY_REVIEW_FILE = BASE / "data" / "reply_human_review_scored.csv"
 RETRIEVAL_REVIEW_FILE = BASE / "data" / "retrieval_human_review.csv"
 LLM_RETRIEVAL_REVIEW_FILE = BASE / "data" / "retrieval_llm_judge.csv"
+REPLY_LLM_JUDGE_FILE = BASE / "data" / "reply_llm_judge.csv"
 OUTPUT_FILE = BASE / "data" / "evaluation_results.json"
 
 
@@ -201,6 +202,83 @@ def main():
             }
 
     # ------------------------------------------------------------
+    # Reply human vs LLM judge agreement
+    # ------------------------------------------------------------
+    reply_agreement = {
+        "compared_examples": 0,
+        "human_average_quality": None,
+        "llm_average_quality": None,
+        "exact_agreement": None,
+        "cohens_kappa": None,
+    }
+
+    if (
+        REPLY_REVIEW_FILE.exists()
+        and REPLY_LLM_JUDGE_FILE.exists()
+    ):
+        human_rows = load_csv(REPLY_REVIEW_FILE)
+        llm_rows = load_csv(REPLY_LLM_JUDGE_FILE)
+
+        human_labels = {
+            row["id"]: int(float(row["overall_quality"]))
+            for row in human_rows
+            if row.get("overall_quality", "").strip()
+        }
+
+        llm_labels = {
+            row["id"]: int(float(row["llm_overall_quality"]))
+            for row in llm_rows
+            if row.get("llm_overall_quality", "").strip()
+        }
+
+        common_ids = sorted(
+            set(human_labels) & set(llm_labels)
+        )
+
+        if common_ids:
+            human_values = [human_labels[i] for i in common_ids]
+            llm_values = [llm_labels[i] for i in common_ids]
+
+            exact_matches = sum(
+                h == l
+                for h, l in zip(human_values, llm_values)
+            )
+
+            total = len(common_ids)
+            agreement = exact_matches / total
+
+            categories = [1, 2, 3, 4, 5]
+
+            po = agreement
+
+            pe = sum(
+                (
+                    sum(h == category for h in human_values) / total
+                ) * (
+                    sum(l == category for l in llm_values) / total
+                )
+                for category in categories
+            )
+
+            kappa = (
+                (po - pe) / (1 - pe)
+                if pe != 1
+                else 1.0
+            )
+
+            reply_agreement = {
+                "compared_examples": total,
+                "human_average_quality": (
+                    sum(human_values) / total
+                ),
+                "llm_average_quality": (
+                    sum(llm_values) / total
+                ),
+                "exact_agreement": agreement,
+                "cohens_kappa": kappa,
+            }
+
+    # ------------------------------------------------------------
     # Per-intent results
     # ------------------------------------------------------------
     per_intent = {}
@@ -253,13 +331,16 @@ def main():
             "auto_handle_rate": auto_count / len(agent_rows),
         },
 
-       "retrieval": {
-    "average_top1_similarity": avg_similarity,
-    "human_review": retrieval_metrics,
-    "human_llm_agreement": retrieval_agreement,
-},
+        "retrieval": {
+            "average_top1_similarity": avg_similarity,
+            "human_review": retrieval_metrics,
+            "human_llm_agreement": retrieval_agreement,
+        },
 
-        "reply_quality_review": reply_metrics,
+        "reply_quality": {
+            "human_review": reply_metrics,
+            "human_llm_agreement": reply_agreement,
+        },
 
         "per_intent": per_intent,
     }

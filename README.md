@@ -127,6 +127,21 @@ Results:
 - Unsupported claims: 0.0%
 - Average quality score: 3.44 / 5
 
+The same 50 reviewed responses were also scored by an LLM judge using the
+documented response-quality rubric. The recorded judge scores had an average
+of 3.38 / 5 and matched the human overall-quality score exactly on 94% of
+examples (Cohen's kappa = 0.887).
+
+- Human average quality: 3.44 / 5
+- LLM-judge average quality: 3.38 / 5
+- Human/LLM exact agreement: 94%
+- Cohen's kappa: 0.887
+
+The LLM-judge scores were produced in the ChatGPT environment because no
+external LLM API key was available locally. They are therefore supporting
+evaluation evidence rather than independent proof of evaluator reliability.
+The rubric and recorded judge outputs are included in the repository.
+
 The strongest aspect is safety and grounding: the evaluated responses avoided unsupported claims and maintained a professional tone. The main weakness is helpfulness, because deterministic intent templates can be too generic when a customer asks for a specific action or detail.
 
 ## 7. Top 5 Failure Modes
