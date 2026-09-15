@@ -1,0 +1,12 @@
+# Raw TWCS dataset — too large for GitHub
+twcs.csv
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local / generated model artifacts
+data/*.pkl

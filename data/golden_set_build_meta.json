@@ -1,0 +1,155 @@
+{
+  "population_stats": {
+    "amazonhelp_tweets": 169840,
+    "amazonhelp_conversations": 82534,
+    "opening_customer_tweets": 81347,
+    "non_english_filtered": 20657,
+    "english_opening_candidates": 60690
+  },
+  "sampling_report": {
+    "seed": 42,
+    "requested": 200,
+    "sampled": 200,
+    "unique_tweet_ids": 200,
+    "unique_conversations": 200,
+    "allocation_target": {
+      "Easy": {
+        "Delivery Delay / Service Issue": 8,
+        "Marked Delivered But Not Received": 6,
+        "Order Cancellation & Refund": 7,
+        "Wrong or Defective Item Received": 6,
+        "Customer Service Quality Complaint": 4,
+        "Prime Membership, Billing & Video": 5,
+        "Payment, Gift Card & Billing Issue": 6,
+        "Account Security": 4,
+        "Device & App Technical Issue": 6,
+        "Shipping Speed / Prime SLA Not Met": 5,
+        "Packaging Feedback": 4,
+        "General Help Request / Greeting": 5,
+        "Other / Unclassified": 4
+      },
+      "Medium": {
+        "Delivery Delay / Service Issue": 9,
+        "Marked Delivered But Not Received": 6,
+        "Order Cancellation & Refund": 8,
+        "Wrong or Defective Item Received": 6,
+        "Customer Service Quality Complaint": 5,
+        "Prime Membership, Billing & Video": 6,
+        "Payment, Gift Card & Billing Issue": 7,
+        "Account Security": 5,
+        "Device & App Technical Issue": 7,
+        "Shipping Speed / Prime SLA Not Met": 6,
+        "Packaging Feedback": 4,
+        "General Help Request / Greeting": 5,
+        "Other / Unclassified": 6
+      },
+      "Hard": {
+        "overlap:Delivery vs Shipping Speed": 10,
+        "overlap:Refund vs Payment/Billing": 8,
+        "overlap:Delivery vs Marked Delivered": 8,
+        "overlap:CS Quality vs actionable": 10,
+        "overlap:General Help vs substantive": 8,
+        "ambiguous:multi-signal / borderline": 6
+      }
+    },
+    "allocation_filled": {
+      "Hard::overlap:Delivery vs Shipping Speed": 10,
+      "Hard::overlap:Refund vs Payment/Billing": 8,
+      "Hard::overlap:Delivery vs Marked Delivered": 8,
+      "Hard::overlap:CS Quality vs actionable": 10,
+      "Hard::overlap:General Help vs substantive": 8,
+      "Hard::ambiguous:multi-signal / borderline": 6,
+      "Easy::Delivery Delay / Service Issue": 8,
+      "Easy::Marked Delivered But Not Received": 6,
+      "Easy::Order Cancellation & Refund": 7,
+      "Easy::Wrong or Defective Item Received": 6,
+      "Easy::Customer Service Quality Complaint": 4,
+      "Easy::Prime Membership, Billing & Video": 5,
+      "Easy::Payment, Gift Card & Billing Issue": 6,
+      "Easy::Account Security": 4,
+      "Easy::Device & App Technical Issue": 6,
+      "Easy::Shipping Speed / Prime SLA Not Met": 5,
+      "Easy::Packaging Feedback": 4,
+      "Easy::General Help Request / Greeting": 5,
+      "Easy::Other / Unclassified": 4,
+      "Medium::Delivery Delay / Service Issue": 9,
+      "Medium::Marked Delivered But Not Received": 6,
+      "Medium::Order Cancellation & Refund": 8,
+      "Medium::Wrong or Defective Item Received": 6,
+      "Medium::Customer Service Quality Complaint": 5,
+      "Medium::Prime Membership, Billing & Video": 6,
+      "Medium::Payment, Gift Card & Billing Issue": 7,
+      "Medium::Account Security": 5,
+      "Medium::Device & App Technical Issue": 7,
+      "Medium::Shipping Speed / Prime SLA Not Met": 6,
+      "Medium::Packaging Feedback": 4,
+      "Medium::General Help Request / Greeting": 5,
+      "Medium::Other / Unclassified": 6
+    },
+    "difficulty_counts": {
+      "Easy": 70,
+      "Medium": 80,
+      "Hard": 50
+    },
+    "proxy_intent_counts": {
+      "Delivery Delay / Service Issue": 34,
+      "Marked Delivered But Not Received": 12,
+      "Other / Unclassified": 10,
+      "Wrong or Defective Item Received": 12,
+      "General Help Request / Greeting": 15,
+      "Account Security": 10,
+      "Shipping Speed / Prime SLA Not Met": 12,
+      "Packaging Feedback": 8,
+      "Order Cancellation & Refund": 24,
+      "Device & App Technical Issue": 15,
+      "Payment, Gift Card & Billing Issue": 17,
+      "Prime Membership, Billing & Video": 12,
+      "Customer Service Quality Complaint": 19
+    },
+    "shortfalls": [],
+    "pool_sizes": {
+      "easy_by_proxy": {
+        "Account Security": 123,
+        "Customer Service Quality Complaint": 165,
+        "Delivery Delay / Service Issue": 188,
+        "Device & App Technical Issue": 395,
+        "General Help Request / Greeting": 276,
+        "Marked Delivered But Not Received": 85,
+        "Order Cancellation & Refund": 758,
+        "Packaging Feedback": 75,
+        "Payment, Gift Card & Billing Issue": 260,
+        "Prime Membership, Billing & Video": 49,
+        "Shipping Speed / Prime SLA Not Met": 304,
+        "Wrong or Defective Item Received": 50
+      },
+      "medium_by_proxy": {
+        "Account Security": 393,
+        "Customer Service Quality Complaint": 2134,
+        "Delivery Delay / Service Issue": 2451,
+        "Device & App Technical Issue": 1553,
+        "General Help Request / Greeting": 1980,
+        "Marked Delivered But Not Received": 808,
+        "Order Cancellation & Refund": 2793,
+        "Other / Unclassified": 33018,
+        "Packaging Feedback": 731,
+        "Payment, Gift Card & Billing Issue": 1262,
+        "Prime Membership, Billing & Video": 1235,
+        "Shipping Speed / Prime SLA Not Met": 2193,
+        "Wrong or Defective Item Received": 1123
+      },
+      "hard_by_stratum": {
+        "ambiguous:multi-signal / borderline": 2339,
+        "overlap:CS Quality vs actionable": 1031,
+        "overlap:Delivery vs Marked Delivered": 75,
+        "overlap:Delivery vs Shipping Speed": 558,
+        "overlap:General Help vs substantive": 1820,
+        "overlap:Refund vs Payment/Billing": 465
+      }
+    }
+  },
+  "notes": [
+    "final_intent is blank pending manual annotation with the locked 13-intent taxonomy.",
+    "proxy_intent_counts reflect sampling heuristics only, not gold labels.",
+    "difficulty values are sampling estimates to be confirmed/adjusted by the annotator."
+  ]
+}

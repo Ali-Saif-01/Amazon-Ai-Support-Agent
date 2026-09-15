@@ -1,0 +1,111 @@
+{
+  "examples_evaluated": 200,
+  "intent_classification": {
+    "accuracy": 0.625,
+    "macro_f1": 0.6272086554726485
+  },
+  "decisioning": {
+    "auto_handle": 126,
+    "escalate": 74,
+    "auto_handle_rate": 0.63
+  },
+  "retrieval": {
+    "average_top1_similarity": 0.2962375,
+    "human_review": {
+      "examples_reviewed": 100,
+      "scored_examples": 100,
+      "top1_relevance": 0.71,
+      "status": "scored"
+    },
+    "human_llm_agreement": {
+      "compared_examples": 100,
+      "human_relevance": 0.71,
+      "llm_relevance": 0.8,
+      "agreement": 0.75,
+      "cohens_kappa": 0.33155080213903765
+    }
+  },
+  "reply_quality_review": {
+    "examples_reviewed": 50,
+    "relevance": 0.84,
+    "groundedness": 0.98,
+    "helpfulness": 0.72,
+    "professional_tone": 1.0,
+    "unsupported_claims": 0.0,
+    "overall_quality": 3.44
+  },
+  "per_intent": {
+    "Account Security": {
+      "count": 17,
+      "precision": 0.9090909090909091,
+      "recall": 0.5882352941176471,
+      "f1": 0.7142857142857143
+    },
+    "Customer Service Quality Complaint": {
+      "count": 13,
+      "precision": 0.625,
+      "recall": 0.7692307692307693,
+      "f1": 0.6896551724137931
+    },
+    "Delivery Delay / Service Issue": {
+      "count": 32,
+      "precision": 0.6785714285714286,
+      "recall": 0.59375,
+      "f1": 0.6333333333333334
+    },
+    "Device & App Technical Issue": {
+      "count": 14,
+      "precision": 0.631578947368421,
+      "recall": 0.8571428571428571,
+      "f1": 0.7272727272727273
+    },
+    "General Help Request / Greeting": {
+      "count": 14,
+      "precision": 0.5714285714285714,
+      "recall": 0.2857142857142857,
+      "f1": 0.38095238095238093
+    },
+    "Marked Delivered But Not Received": {
+      "count": 15,
+      "precision": 0.8333333333333334,
+      "recall": 0.6666666666666666,
+      "f1": 0.7407407407407408
+    },
+    "Order Cancellation & Refund": {
+      "count": 17,
+      "precision": 0.4444444444444444,
+      "recall": 0.47058823529411764,
+      "f1": 0.45714285714285713
+    },
+    "Packaging Feedback": {
+      "count": 8,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    "Payment, Gift Card & Billing Issue": {
+      "count": 16,
+      "precision": 0.4666666666666667,
+      "recall": 0.875,
+      "f1": 0.608695652173913
+    },
+    "Prime Membership, Billing & Video": {
+      "count": 11,
+      "precision": 0.3888888888888889,
+      "recall": 0.6363636363636364,
+      "f1": 0.4827586206896552
+    },
+    "Shipping Speed / Prime SLA Not Met": {
+      "count": 29,
+      "precision": 0.7894736842105263,
+      "recall": 0.5172413793103449,
+      "f1": 0.625
+    },
+    "Wrong or Defective Item Received": {
+      "count": 14,
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "f1": 0.6666666666666666
+    }
+  }
+}

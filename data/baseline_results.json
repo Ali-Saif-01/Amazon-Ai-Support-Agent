@@ -1,0 +1,20 @@
+{
+  "golden_examples": 200,
+  "majority_class": "Delivery Delay / Service Issue",
+  "our_system": {
+    "accuracy": 0.625,
+    "macro_f1": 0.6272
+  },
+  "baselines": [
+    {
+      "baseline": "Majority-class baseline",
+      "accuracy": 0.16,
+      "macro_f1": 0.022988505747126436
+    },
+    {
+      "baseline": "Keyword/rule baseline",
+      "accuracy": 0.42,
+      "macro_f1": 0.44695835384983457
+    }
+  ]
+}
