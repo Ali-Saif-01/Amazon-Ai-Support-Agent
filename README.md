@@ -1,4 +1,4 @@
-# Hiver SDE Intern Assignment — AmazonHelp AI Support Agent
+# AmazonHelp AI Support Agent
 
 End-to-end AI support-agent pipeline built on the Twitter Customer Support dataset.
 ## 1. Project Overview
